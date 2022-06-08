@@ -1,0 +1,107 @@
+ *{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+
+#menu{
+position:fixed;
+width:100%;
+background-color: #FF9933;
+list-style:none; 
+border:1px solid #c0c0c0; 
+float:left;
+
+}
+#menu li{
+font-style: bold;
+position:relative; 
+float:left; 
+list-style-type: none;
+border-right:1px solid #c0c0c0; 
+background-color: #FF9933; 
+}
+#menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+#menu li a:hover{
+background:#333; 
+color:#fff; 
+}
+
+#menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color: #FF9933; 
+display:none;
+}   
+
+#menu li:hover ul, .menu li.over ul{display:block;}
+
+#menu li ul li{
+border:1px solid #c0c0c0; 
+display:block; 
+width:150px;
+}
+
+#entrar {
+    position: absolute; 
+    display:block; 
+    right: -1300px; /* posiciona a 90px para a esquerda */ 
+    }
+
+#suporte {
+    position: absolute; 
+    display:block; 
+    right: -1290px; /* posiciona a 90px para a esquerda */ 
+    }
+
+#titles li {
+    font-size: 14px;
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+#superior {
+	position:fixed;
+	padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+	background-color:#363636;
+	color: #FFFFFF;  
+
+}
+
+table#alter tr td {
+    background: #FFFFFF;
+}
+table#alter tr.dif td {
+    background: #D3D3D3;
+}
+table#alter tr.difTitle td {
+    background: #9C9C9C;
+}
+
+form#caixaBusca {
+    position:fixed;
+    top: 4px;
+    right: 10px;
+    }
+
+#titulo1 {
+    position:fixed;
+    top: 5px;
+    right: 770px;
+    font-size: 16px;
+    font-style: bold;
+    color: black;
+    }
+#imgtel {
+    position:fixed;
+    top: 4px;
+    right: 850px;
+    }
